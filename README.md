@@ -26,3 +26,5 @@ int main()
     // CV_LOAD_IMAGE_GRAYSCALE ( 0) loads the image in Gray scale.      
     // CV_LOAD_IMAGE_COLOR (>0) loads the image in the BGR format. 
     // If the second argument is not there, it is implied CV_LOAD_IMAGE_COLOR.
+vector coin;
+    // A vector data type to store the details of coins.
