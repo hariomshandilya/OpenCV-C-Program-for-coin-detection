@@ -69,4 +69,13 @@ HoughCircles(image,coin,CV_HOUGH_GRADIENT,2,20,450,60,0,0 );
     // WINDOW_AUTOSIZE : The window size is automatically adjusted to fit the
      // displayed image() ), and you cannot change the window size manually. 
     // WINDOW_OPENGL : The window will be created with OpenGL support.
-      
+      imshow("Coin Counter",image);
+    // first argument: name of the window 
+    // second argument: image to be shown(Mat object)
+
+    waitKey(0); // Wait for infinite time for a key press.
+
+    Return 0;    // Return from main function.
+}
+
+End of explanation.
