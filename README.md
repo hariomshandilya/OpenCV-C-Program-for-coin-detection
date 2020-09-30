@@ -35,3 +35,6 @@ HoughCircles(image,coin,CV_HOUGH_GRADIENT,2,20,450,60,0,0 );
     // Argument 4: The inverse ratio of resolution.
     // Argument 5: Minimum distance between centers.
     // Argument 6: Upper threshold for Canny edge detector.
+// Argument 7: Threshold for center detection.
+    // Argument 8: Minimum radius to be detected. Put zero as default
+    // Argument 9: Maximum radius to be detected. Put zero as default
