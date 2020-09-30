@@ -50,3 +50,13 @@ HoughCircles(image,coin,CV_HOUGH_GRADIENT,2,20,450,60,0,0 );
     // Detect center
     // cvRound: Rounds floating point number to nearest integer.
     int radius=cvRound(coin[i][2]);
+    // To get the radius from the second argument of vector coin.     
+    circle(image,center,3,Scalar(0,255,0),-1,8,0);
+        // circle center
+        //  To get the circle outline.     
+    circle(image,center,radius,Scalar(0,0,255),3,8,0);
+        // circle outline
+    cout<< " Center location for circle "<<i+1<<" :
+        "<<center<<"\n Diameter : "<<2*radius<<"\n";
+    }
+    cout<<"\n";
