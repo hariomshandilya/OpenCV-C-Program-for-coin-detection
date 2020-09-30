@@ -22,3 +22,7 @@ int main()
     // Take any image but make sure its in the same folder.
     // first argument denotes the image to be loaded. 
     // second argument specifies the image format as follows: 
+  // CV_LOAD_IMAGE_UNCHANGED (<0) loads the image as it is.      
+    // CV_LOAD_IMAGE_GRAYSCALE ( 0) loads the image in Gray scale.      
+    // CV_LOAD_IMAGE_COLOR (>0) loads the image in the BGR format. 
+    // If the second argument is not there, it is implied CV_LOAD_IMAGE_COLOR.
