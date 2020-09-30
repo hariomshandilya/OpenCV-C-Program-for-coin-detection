@@ -28,3 +28,10 @@ int main()
     // If the second argument is not there, it is implied CV_LOAD_IMAGE_COLOR.
 vector coin;
     // A vector data type to store the details of coins.
+HoughCircles(image,coin,CV_HOUGH_GRADIENT,2,20,450,60,0,0 );
+    // Argument 1: Input image mode
+    // Argument 2: A vector that stores 3 values: x,y and r for each circle.
+    // Argument 3: CV_HOUGH_GRADIENT: Detection method.
+    // Argument 4: The inverse ratio of resolution.
+    // Argument 5: Minimum distance between centers.
+    // Argument 6: Upper threshold for Canny edge detector.
