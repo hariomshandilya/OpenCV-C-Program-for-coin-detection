@@ -5,3 +5,9 @@ Things to know:  The code will only compile in Linux environment. To run in wind
 #include "opencv2/imgproc/imgproc.hpp"
 // imgproc - An image processing module that for linear and non-linear
  image filtering, geometrical image transformations, color space conversion and so on.
+#include <iostream>
+#include <stdio.h>
+// The header files for performing input and output.
+ 
+using namespace cv;
+// Namespace where all the C++ OpenCV functionality resides.
