@@ -11,3 +11,10 @@ Things to know:  The code will only compile in Linux environment. To run in wind
  
 using namespace cv;
 // Namespace where all the C++ OpenCV functionality resides.
+using namespace std;
+// For input output operations.
+ 
+int main()
+{
+    Mat image;
+    // Mat object is a basic image container. image is an object of Mat.
