@@ -38,3 +38,15 @@ HoughCircles(image,coin,CV_HOUGH_GRADIENT,2,20,450,60,0,0 );
 // Argument 7: Threshold for center detection.
     // Argument 8: Minimum radius to be detected. Put zero as default
     // Argument 9: Maximum radius to be detected. Put zero as default
+    int l=coin.size();
+    // Get the number of coins.
+
+    cout<<"\n The number of coins is: "<<l<<"\n\n";
+    
+    // To draw the detected circles.
+    for( size_t i = 0; i < coin.size(); i++ )
+    {
+    Point center(cvRound(coin[i][0]),cvRound(coin[i][1]));
+    // Detect center
+    // cvRound: Rounds floating point number to nearest integer.
+    int radius=cvRound(coin[i][2]);
