@@ -60,3 +60,13 @@ HoughCircles(image,coin,CV_HOUGH_GRADIENT,2,20,450,60,0,0 );
         "<<center<<"\n Diameter : "<<2*radius<<"\n";
     }
     cout<<"\n";
+    namedWindow("Coin Counter",CV_WINDOW_AUTOSIZE);
+    // Create a window called 
+    //"A_good_name". 
+    // first argument: name of the window. 
+    // second argument: flag- types: 
+    // WINDOW_NORMAL : The user can resize the window. 
+    // WINDOW_AUTOSIZE : The window size is automatically adjusted to fit the
+     // displayed image() ), and you cannot change the window size manually. 
+    // WINDOW_OPENGL : The window will be created with OpenGL support.
+      
