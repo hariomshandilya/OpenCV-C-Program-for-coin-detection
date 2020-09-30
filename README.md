@@ -18,3 +18,7 @@ int main()
 {
     Mat image;
     // Mat object is a basic image container. image is an object of Mat.
+ image=imread("coin-detection.jpg",CV_LOAD_IMAGE_GRAYSCALE);
+    // Take any image but make sure its in the same folder.
+    // first argument denotes the image to be loaded. 
+    // second argument specifies the image format as follows: 
