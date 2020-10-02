@@ -75,7 +75,6 @@ HoughCircles(image,coin,CV_HOUGH_GRADIENT,2,20,450,60,0,0 );
 
     waitKey(0); // Wait for infinite time for a key press.
 
-    Return 0;    // Return from main function.
-}
+    Return 0; }    // Return from main function.
 
 End of explanation.
